@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn{
+
+    background-color: #ee626b;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 11px;
+    margin: 0px 10px;
+}
+.btn:hover{
+    background-color: #f2858c;
+}
+/*----------------------------------------------------------- Header ---------------------------------------------------*/
+.header{
+    background-color: #0171f9;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+}
+.header-link a {
+color: white;
+padding: 5px 15px;
+text-decoration: none;
+border-radius: 50px;
+margin: 20px;
+
+}
+.header-link a:hover{
+    background-color: #2386fe;
+
+}
+
+
+/*----------------------------------------------------------- Landing page ------------------------------------------------------*/
+.landing-page{
+    background-color: #0171f9;
+    display: flex;
+    padding: 50px 50px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    border-radius: 0px 0px 50px 50px ;
+
+}
+.landing-page h2{
+    margin: 0;
+}
+.landing-page p{
+    color: black;
+}
+
+.landing-page-left{
+    width: 600px;
+}
+.landing-page-search{
+    padding: 10px;
+
+ 
+    align-items: center;
+}
+.landing-page-search input{
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 25px 0px;
+
+}
+.landing-page-search button{
+    position: absolute;
+    padding: 5px 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    margin: 25px 0px;
+    left: 250px;
+
+}
+
+
+.landing-page-right img{
+    border-radius: 50px;
+    width: 300;
+}
+
+/*------------------------------------------------------- trinding games ------------------------------------------------------*/
+
+.trending-games{
+padding: 15px 50PX;
+margin: 75px 0px;
+}
+.trending-games H1{
+    margin-top: 0;
+}
+.trending-header{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.trending-games span{
+    color: #ee626b;
+}
+
+.trending-cards{
+    display: flex;
+    gap: 15px;
+}
+.card{
+    padding: 5px 15px;
+    width: 230px;
+    background-color: #eeeeee;
+    border-radius: 20px;
+}
+ .card img{
+  width: 100%;
+  height: 230px;
+    border-radius: 20px 20px 0px 0px;
+ }
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card-info img{
+  width: 50px;
+  height: 50px;
+}
+/*------------------------------------------------- Most Played -----------------------------------------------*/
+.most-played-sec{
+    padding: 10px 50px;
+    background-color: #eeeeee;
+    margin: 75px 0px;
+    border-radius: 50px;
+}
+.most-played{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.most-played-cards{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 0px;
+}
+
+.most-played-card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.most-played-card p{
+    color: #595656;
+}
+.most-played-card img{
+    border-radius: 20px;
+}
+.most-played-card h3{
+    margin-top: 5px;
+}
+.most-played-card button{
+    width: 150px;
+    height: 50px;
+    font-size: large;
+}
+
+/*------------------------------------------------------ Top Categories ------------------------------------------  */
+.top-categories{
+    margin: 75px 0;
+}
+
+.top-categories h1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.top-categories-cards{
+    display: flex;
+    gap: 35px;
+}
+.top-categories-card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0171f9;
+    border-radius:30px;
+    transition:transform 0.3s ease;
+    margin: 50px 0;
+}
+.top-categories-card:hover{
+transform: scale(1.05);
+}
+.top-categories-card h2{
+    color: white;
+    
+}
+.top-categories-card img{
+    width: 250px;
+    border-radius: 30px;
+    
+}
+
